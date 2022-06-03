@@ -120,7 +120,7 @@ def main():
     
     #
     from PIL import Image
-    image = Image.open('Logo1.jpg')
+    image = Image.open('logo1.jpeg')
     st.image(image, caption='Twitter for Analytics',use_column_width=True)
     
     
